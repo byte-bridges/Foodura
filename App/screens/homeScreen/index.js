@@ -25,7 +25,7 @@ const HomeScreen = ({navigation}) => {
     <View style={{flex: 1}}>
       <View
         style={{
-          height: '25%',
+          height: '27.5%',
           width: '100%',
           backgroundColor: PRIMARY_COLOR,
           padding: 24,
@@ -35,8 +35,11 @@ const HomeScreen = ({navigation}) => {
         }}>
         <Text
           numberOfLines={1}
-          style={[globalStyles.headline2, {paddingTop: 24}]}>
-          Hi {user?.name} 👋
+          style={[globalStyles.headline, {paddingTop: 24}]}>
+          Hi 👋
+        </Text>
+        <Text numberOfLines={1} style={globalStyles.headline2}>
+          {user?.name}
         </Text>
         <CustomTextInput
           value={search}
