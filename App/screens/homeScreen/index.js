@@ -31,6 +31,7 @@ const HomeScreen = ({navigation}) => {
           padding: 24,
           borderBottomLeftRadius: 24,
           borderBottomRightRadius: 24,
+          justifyContent: 'flex-end',
         }}>
         <Text
           numberOfLines={1}
